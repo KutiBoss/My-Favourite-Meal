@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <style>
+      .row{
+        display: inline-block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12em;
+        margin-bottom: 1em;
+        padding: 1px 50px
+      }
+      body{
+        border-radius: 20px;
+    padding: 8px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    width: 800px;
+    height: 1000px;
+    font-style: oblique;
+      }
+      table{
+        width: 200px;
+        border-collapse: collapse;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: auto;
+      }
+      .label{
+        display: flex;
+        flex-direction: column;
+        font-weight: 100;
+        gap: 1em;
+        padding: 1em;
+        width: 600px;
+      }
+      
+      .ingredient{ 
+      border: 5px solid black;
+      padding: 8px 20px; 
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: rgb(234, 18, 18);
+      color: black;
+      }
+      .measurement{ 
+      border: 1px solid black;
+      padding: 1px 10px; 
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: rgb(234, 18, 18);
+      color: black;
+      }
+      .label12{ 
+      border: 1px solid black;
+      padding: 8px 20px; 
+      }
+      .label13{ 
+      border: 1px solid black;
+      padding: 8px 20px; 
+      }
+      .column{
+        float: left;
+        width: 50;
+        padding: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: cubic-bezier(0.77, 0, 0.175, 1);
+      }
+      .column: :hover{
+        ::shadow
+      }
+      
+
+    </style>
+  </head>
+  <body>
+    <div class="row" style="text-align: center;">
+      <h3 class="contact-card">My Favourite Meal</h3>
+    </br>
+      <div class="row">
+        <div class="column">
+      <img
+        src="afang.jpeg"
+        alt="Afang" style="width: 150px;"
+      />
+
+      <div class="column">
+        <img src="ingredients.jpeg" alt="ingredients" style="width: 150px;">
+    </div>
+      <div class="column">
+        <img src="afangsoup.jpeg" alt="afang soup" style="width: 150px;">
+    </div>
+    <div class="column">
+      <img src="calabash.jpeg" alt="calabash" style="width: 150px;">
+  </div>
+      <table>
+        <br />
+        <thead>
+        <tr>
+            <th class="about_afang" style="float: centre;">About Afang Soup</th>
+        </tr>
+        <tbody>
+          <tr>
+          <td class="label" style="float: left;">Afang soup (not to be misconstrued for Okazi soup or Ukazi soup, a soup from the Igbo cuisine), is a vegetable soup that originates from the Efik people of the Efik kingdom in Cross River State and the Ibibio People of Akwa Ibom in Southern Nigeria.</td>
+        </tr>
+        </tbody>
+      </thead>
+      </br>
+        <thead>
+        <tr>
+          <th class="ingredient">Ingredients Needed for Afang Soup</th>
+          <th class="measurement">Measurement</th>
+      </tr>
+    </thead>
+      <tbody>
+      <tr>
+        <td class="label2">sliced Okazi/Afang leaves | about 4 handfuls</td>
+        <td class="label13">400g</td>
+      </tr>
+      <tr>
+        <td class="label2"> Water leaves</td>
+        <td class="label13">250g</td>
+      </tr>
+      <tr>
+        <td class="label2">red palm oil</td>
+        <td class="label13">25cl</td>
+      </tr>
+      <tr>
+        <td class="label2">beef, pomo, dry-fish, stock fish</td>
+        <td class="label13">according to taste</td>
+      </tr>
+      <tr>
+        <td class="label2">ground crayfish</td>
+        <td class="label13">2 tablespoons</td>
+      </tr>
+      <tr>
+        <td class="label2">pepper and salt</td>
+        <td class="label13">according to taste</td>
+      </tr>
+      <tr>
+        <td class="label2">stock cubes</td>
+        <td class="label13">2</td>
+      </tr>
+    </tbody>
+    <br />
+  </br>
+        <thead>
+        <tr>
+            <th class="about_afang" style="float: centre;">Cooking Direction</th>
+        </tr>
+      </br>
+        <tbody>
+          <tr>
+          <td class="label" style="float: left;">Boil the beef and Kanda with the diced onions and stock cubes in a very small quantity of water. When done, add the dry fish and cook for about 5 more minutes.</td>
+          <td class="label" style="float: left;">Now add the palm oil, crayfish and pepper. Once it starts boiling, add the afang (okazi) leaves, water leaves and periwinkle. When the okazi leaves have softened and the water has dried up a bit, add salt to taste and leave to simmer for about 5 minutes. The Afang soup is ready!</td>
+        </tr>
+        </tbody>
+      </thead>
+      </br>
+        <thead>
+  </table>
+</body>
+</html>
+      
